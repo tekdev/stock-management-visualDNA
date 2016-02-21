@@ -12,7 +12,7 @@ Then you can run the Jar with "java -jar target/stock-management-1.0-SNAPSHOT.ja
 ## Hitting the endpoints
 the service base URL is http://<host>:8080/stock
 
-Simply import [postman collection](postman.json) into google postan plugin to use pre-configured requests
+Simply import [postman collection](postman.json) into google postan plugin to use pre-configured requests. Ideally we shoudld do this with Swagger API documentation for better documentation.
 
 examples of endpoints URLS:
 - http://localhost:8080/stock/low  (to get all low quantity stock items)
